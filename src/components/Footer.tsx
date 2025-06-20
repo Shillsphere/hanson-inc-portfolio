@@ -16,8 +16,11 @@ const Footer = () => {
           <Button 
             size="lg"
             className="bg-brand-red text-white hover:bg-brand-red/90 transition-all duration-300 px-8 py-4 text-lg font-semibold"
+            asChild
           >
-            Book Your Discovery Call →
+            <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
+              Book Your Discovery Call →
+            </a>
           </Button>
         </div>
         

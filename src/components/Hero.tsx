@@ -25,8 +25,11 @@ const Hero = () => {
           </a>
           <Button 
             className="bg-white text-jet-black hover:bg-brand-red hover:text-white transition-all duration-300 px-6"
+            asChild
           >
-            Book a Call
+            <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
+              Book a Call
+            </a>
           </Button>
         </div>
       </nav>
@@ -58,8 +61,11 @@ const Hero = () => {
             <Button 
               size="lg"
               className="bg-white text-jet-black hover:bg-brand-red hover:text-white transition-all duration-300 px-8 py-4 text-lg font-semibold"
+              asChild
             >
-              Book a Discovery Call →
+              <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
+                Book a Discovery Call →
+              </a>
             </Button>
             
             {/* Social Proof */}
