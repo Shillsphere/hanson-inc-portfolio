@@ -17,7 +17,7 @@ const Hero = () => {
           <a href="#" className="text-white hover:text-brand-red transition-colors">
             <Twitter size={20} />
           </a>
-          <a href="#" className="text-white hover:text-brand-red transition-colors">
+          <a href="https://www.instagram.com/liamhanson_06/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-brand-red transition-colors">
             <Instagram size={20} />
           </a>
           <a href="#" className="text-white hover:text-brand-red transition-colors">

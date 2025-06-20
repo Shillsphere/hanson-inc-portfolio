@@ -40,7 +40,9 @@ const Footer = () => {
                 <Twitter size={20} />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/liamhanson_06/" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-slate-subtle hover:text-white transition-colors"
                 aria-label="Instagram"
               >
