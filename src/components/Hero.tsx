@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Instagram, Linkedin, Twitter } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="min-h-screen bg-jet-black relative overflow-hidden">
+  return <section className="min-h-screen bg-jet-black relative overflow-hidden">
       {/* Background Glow Effect */}
       <div className="absolute inset-0 bg-gradient-radial from-brand-red/20 via-brand-red/5 to-transparent"></div>
       
@@ -23,10 +21,7 @@ const Hero = () => {
           <a href="#" className="text-white hover:text-brand-red transition-colors">
             <Linkedin size={20} />
           </a>
-          <Button 
-            className="bg-white text-jet-black hover:bg-brand-red hover:text-white transition-all duration-300 px-6"
-            asChild
-          >
+          <Button className="bg-white text-jet-black hover:bg-brand-red hover:text-white transition-all duration-300 px-6" asChild>
             <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
               Book a Call
             </a>
@@ -58,33 +53,17 @@ const Hero = () => {
           
           {/* Primary CTA */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-12">
-            <Button 
-              size="lg"
-              className="bg-white text-jet-black hover:bg-brand-red hover:text-white transition-all duration-300 px-8 py-4 text-lg font-semibold"
-              asChild
-            >
+            <Button size="lg" className="bg-white text-jet-black hover:bg-brand-red hover:text-white transition-all duration-300 px-8 py-4 text-lg font-semibold" asChild>
               <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
                 Book a Discovery Call →
               </a>
             </Button>
             
             {/* Social Proof */}
-            <div className="flex items-center gap-3">
-              <div className="flex -space-x-2">
-                {[1, 2, 3].map((i) => (
-                  <div 
-                    key={i} 
-                    className="w-8 h-8 rounded-full bg-slate-subtle border-2 border-jet-black"
-                  />
-                ))}
-              </div>
-              <span className="text-slate-subtle text-sm">500+ successful campaigns</span>
-            </div>
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

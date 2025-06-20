@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section className="py-24 bg-white">
+  return <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
@@ -23,9 +22,7 @@ const About = () => {
               </p>
             </blockquote>
             
-            <p className="text-gray-600">
-              When I'm not split-testing subject lines, you'll find me weight-lifting or golfing.
-            </p>
+            <p className="text-gray-600">When I'm not testing subject lines, you'll find me playing basketball at St. Norbert College.</p>
           </div>
           
           {/* Photo */}
@@ -43,8 +40,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
