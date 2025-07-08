@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Navigation */}
       <nav className="relative z-10 flex items-center justify-between p-6 max-w-7xl mx-auto">
         <div className="text-white text-xl font-bold">
-          Hanson <span className="text-brand-red">INC</span>
+          HANSON <span className="text-brand-red">COPY</span>
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="max-w-4xl">
           {/* Micro-Hook */}
           <p className="text-brand-red text-sm font-medium mb-6 tracking-wide uppercase">
-            High-ROI Email. Zero Guesswork.
+            High Roas.Zero Guesswork
           </p>
           
           {/* Main Headlines */}
@@ -43,12 +43,12 @@ const Hero = () => {
           </h1>
           
           <h2 className="font-display italic text-3xl md:text-4xl text-white mb-8">
-            Do Email Marketing <span className="text-brand-red">The Right</span> Way
+            Scale Your Brand Through Paid Ads <span className="text-brand-red">The Right</span> Way
           </h2>
           
           {/* Value Proposition */}
           <p className="text-slate-subtle text-xl leading-relaxed mb-8 max-w-2xl">
-            I build email ecosystems that convert browsers into buyers. From automated flows to seasonal promos, every email is written, tested, and shipped to grow your revenue—not your workload.
+            I help DTC brands scale fast using paid ads through Meta, Instagram and TikTok. From creative testing to full-funnel scaling, every campaign is optimized to maximize your ROAS and grow your revenue.
           </p>
           
           {/* Primary CTA */}

@@ -5,24 +5,24 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-jet-black mb-6">
-              Hi, I'm Liam Hanson—an 18-year-old Illinois-based copywriter & email-marketing specialist.
+              Hi, I'm Liam Hanson—an 18-year-old Illinois-based brand scaler and marketing specialist.
             </h2>
             
             <div className="text-brand-red text-lg font-semibold mb-6">
-              Doubled email-driven revenue for multiple SMBs within 90 days.
+              Doubled revenues for clothing, wellness & lifestyle brands in under 90 days.
             </div>
             
             <p className="text-gray-700 text-lg leading-relaxed mb-8">
-              My journey started with copywriting and grew through leadership experiences in door-to-door sales and a dog-walking hustle. After rebuilding my confidence following early trading losses, I discovered my true calling: strategic storytelling that drives results. Every setback taught me resilience, and every success reinforced my belief in the power of authentic communication.
+              My journey started with copywriting and grew through leadership experiences in door-to-door sales and training kids for basketball. After rebuilding my confidence following early trading losses, I discovered my true calling: scaling brands through strategic paid advertising that drives results. Every setback taught me resilience, and every success reinforced my belief in the power of data-driven marketing.
             </p>
             
             <blockquote className="border-l-4 border-brand-red pl-6 mb-8">
               <p className="text-xl font-medium text-jet-black italic">
-                "My mission is simple: craft strategic storytelling that turns inbox noise into predictable revenue."
+                "My mission is simple: help DTC brands scale fast using paid ads through Meta, Instagram and TikTok."
               </p>
             </blockquote>
             
-            <p className="text-gray-600">When I'm not testing subject lines, you'll find me playing basketball at St. Norbert College.</p>
+            <p className="text-gray-600">When I'm not deep in ads manager, you'll find me testing creatives with Figma or browsing ad trends.</p>
           </div>
           
           {/* Photo */}

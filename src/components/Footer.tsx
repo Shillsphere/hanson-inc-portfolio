@@ -8,10 +8,10 @@ const Footer = () => {
         {/* CTA Section */}
         <div className="text-center mb-16">
           <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Transform Your Email Marketing?
+            Ready to Scale Your Brand with Paid Ads?
           </h3>
           <p className="text-xl text-slate-subtle mb-8 max-w-2xl mx-auto">
-            Let's talk about your goals and see how strategic email can grow your revenue.
+            Let's talk about your goals and see how strategic paid advertising can grow your revenue.
           </p>
           <Button 
             size="lg"
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-white text-xl font-bold">
-              Hanson <span className="text-brand-red">INC</span>
+              HANSON <span className="text-brand-red">COPY</span>
             </div>
             
             <div className="flex items-center space-x-6">
@@ -60,7 +60,7 @@ const Footer = () => {
           
           <div className="mt-8 pt-8 border-t border-white/10 text-center">
             <p className="text-slate-subtle text-sm">
-              © 2024 Hanson INC. All rights reserved. • Illinois-based Email Marketing Specialist
+              © 2024 HANSON COPY. All rights reserved. • Illinois-based Brand Scaling & Marketing Specialist
             </p>
           </div>
         </div>

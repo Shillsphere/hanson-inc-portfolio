@@ -2,33 +2,33 @@ const Process = () => {
   const steps = [
     {
       number: "1",
-      title: "Discovery Call",
-      descriptor: "15-minute fit check",
-      deliverables: "Calendly booking → needs sheet."
+      title: "Audit and Deep Dive",
+      descriptor: "Complete account analysis",
+      deliverables: "Ad account audit, product & offer review, current funnel analysis."
     },
     {
       number: "2", 
-      title: "Audit & Strategy Deck",
-      descriptor: "48-hour turnaround",
-      deliverables: "List health report, revenue gap analysis, roadmap (PDF)."
+      title: "Custom Paid Ads Strategy",
+      descriptor: "Tailored scaling roadmap",
+      deliverables: "Targeting strategy, budget scaling plan, creative roadmap."
     },
     {
       number: "3",
-      title: "Copy & Creative", 
-      descriptor: "Story-first email frameworks",
-      deliverables: "Google Doc drafts, Figma mockups."
+      title: "Launch Ad Campaigns", 
+      descriptor: "Deploy across platforms",
+      deliverables: "Meta, Instagram, TikTok campaigns with ongoing A/B tests."
     },
     {
       number: "4",
-      title: "Build & Integrate",
-      descriptor: "ESP & automation wiring", 
-      deliverables: "Flow diagrams, segmentation rules."
+      title: "Scale and Iterate",
+      descriptor: "Optimize top performers", 
+      deliverables: "Scale winning ads, optimize budgets, lower cost performers."
     },
     {
       number: "5",
-      title: "Launch & Iterate",
-      descriptor: "Data-driven optimisation",
-      deliverables: "Weekly KPI email, A/B testing plan, loom recap."
+      title: "Transparent Reporting",
+      descriptor: "Data-driven insights",
+      deliverables: "Weekly dashboards, actionable insights, performance breakdowns."
     }
   ];
 

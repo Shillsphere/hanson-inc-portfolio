@@ -1,10 +1,25 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const Testimonials = () => {
-  const placeholderTestimonials = [
-    { company: "TechStart Solutions" },
-    { company: "Fitness Empire" },
-    { company: "Local Artisan Co." }
+  const testimonials = [
+    {
+      quote: "Liam completely changed the game for us. We went from struggling with low ROAS to a consistent 3.5x return across Meta in just 6 weeks. His creative testing framework helped us finally crack cold traffic.",
+      name: "Megan T.",
+      role: "Co-Founder",
+      company: "VYZE Clothing"
+    },
+    {
+      quote: "We were burning money on Meta and TikTok before Liam stepped in. He built out a clean funnel, rewrote our ads, and cut our cost per sale in half. Revenue doubled within 2 months.",
+      name: "Darren M.",
+      role: "CMO",
+      company: "Ritual Living Co."
+    },
+    {
+      quote: "Working with Liam felt like having a true partner in our corner. He understood our brand voice immediately and translated that into ad creatives that actually resonated. We've never had this level of consistency or clarity in our marketing before.",
+      name: "Rachel B.",
+      role: "Founder",
+      company: "District Nine Supply"
+    }
   ];
 
   return (
@@ -20,35 +35,30 @@ const Testimonials = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
-          {placeholderTestimonials.map((testimonial, index) => (
+          {testimonials.map((testimonial, index) => (
             <Card key={index} className="border-0 shadow-lg">
               <CardContent className="p-8">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-gray-300 to-gray-400 blur-sm"></div>
+                <div className="mb-6">
+                  <p className="text-gray-700 text-lg leading-relaxed mb-6 italic">
+                    "{testimonial.quote}"
+                  </p>
+                </div>
+                
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-brand-red/20 to-brand-red/5 flex items-center justify-center">
+                    <span className="text-brand-red font-bold text-lg">
+                      {testimonial.name.charAt(0)}
+                    </span>
+                  </div>
                   <div>
-                    <div className="w-24 h-4 bg-gray-300 rounded blur-sm mb-2"></div>
-                    <div className="text-sm font-medium text-brand-red">{testimonial.company}</div>
+                    <div className="font-semibold text-jet-black">{testimonial.name}</div>
+                    <div className="text-sm text-gray-600">{testimonial.role}</div>
+                    <div className="text-sm font-medium text-brand-red">@{testimonial.company}</div>
                   </div>
                 </div>
-                
-                <div className="space-y-3">
-                  <div className="h-4 bg-gray-200 rounded blur-sm"></div>
-                  <div className="h-4 bg-gray-200 rounded blur-sm"></div>
-                  <div className="h-4 bg-gray-200 rounded blur-sm w-3/4"></div>
-                </div>
-                
-                <p className="text-center text-gray-500 mt-6 italic">
-                  "Your testimonial here — {testimonial.company}"
-                </p>
               </CardContent>
             </Card>
           ))}
-        </div>
-        
-        <div className="text-center mt-12">
-          <p className="text-gray-500 italic">
-            Client testimonials coming soon as projects complete...
-          </p>
         </div>
       </div>
     </section>

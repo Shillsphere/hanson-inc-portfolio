@@ -3,58 +3,48 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Services = () => {
   const services = [
     {
-      title: "Automated Lifecycle Flows",
-      problem: "New customers leak out of funnel.",
+      title: "Paid Social Strategy & Media Buying",
+      problem: "Low ROAS; poor audience targeting.",
       deliverables: [
-        "Welcome series",
-        "Post-purchase sequences", 
-        "Win-back campaigns",
-        "Browse-abandon flows",
-        "Cart-abandon recovery",
-        "Sunset sequences"
+        "Meta Ads campaigns",
+        "Instagram advertising", 
+        "TikTok Ads optimization",
+        "Audience research & targeting",
+        "Budget allocation strategy",
+        "Creative testing framework"
       ]
     },
     {
-      title: "Campaign Strategy & Copy", 
-      problem: "Inbox fatigue; poor segmentation.",
+      title: "PPC Campaigns", 
+      problem: "High cost per acquisition; low conversion.",
       deliverables: [
-        "Calendar planning",
-        "Brand voice documentation",
-        "4-week promo sequences",
-        "A/B subject line testing",
-        "Audience segmentation"
+        "Google Ads management",
+        "YouTube advertising",
+        "Search campaigns",
+        "Shopping ads optimization",
+        "Retargeting campaigns"
       ]
     },
     {
-      title: "ESP Migration & Setup",
-      problem: "Technical debt hinders scaling.",
+      title: "Creative Testing & Ad Optimization",
+      problem: "Ads fatigue; poor creative performance.",
       deliverables: [
-        "Platform audit (Klaviyo, Mailchimp, Omnisend)",
-        "List cleaning & validation",
-        "Segment logic setup",
-        "Integration configuration"
+        "A/B test ad visuals",
+        "Headlines optimization",
+        "Landing page testing",
+        "Creative refresh cycles",
+        "Performance analysis"
       ]
     },
     {
-      title: "Deliverability Fixes",
-      problem: "Emails land in spam.",
+      title: "Full-Funnel Scaling Plans",
+      problem: "Inconsistent scaling; poor funnel flow.",
       deliverables: [
-        "DNS setup (SPF/DKIM)",
-        "Domain warm-up strategy",
-        "Bounce management",
-        "Ongoing monitoring",
-        "Reputation management"
-      ]
-    },
-    {
-      title: "Reporting & Optimisation", 
-      problem: "Low open/click/placed-order rates.",
-      deliverables: [
-        "Bi-weekly KPI dashboard",
-        "Test roadmap development", 
-        "Iterative copy refresh",
-        "Performance analytics",
-        "ROI tracking"
+        "Initial reach campaigns",
+        "Retargeting sequences",
+        "Automated upsells",
+        "Customer journey mapping",
+        "Conversion optimization"
       ]
     }
   ];
