@@ -33,9 +33,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-32">
         <div className="max-w-4xl">
           {/* Micro-Hook */}
-          <p className="text-brand-red text-sm font-medium mb-6 tracking-wide uppercase">
-            High Roas.Zero Guesswork
-          </p>
+          <p className="text-brand-red text-sm font-medium mb-6 tracking-wide uppercase">HIGH ROAS ZERO GUESSWORK</p>
           
           {/* Main Headlines */}
           <h1 className="text-white text-6xl md:text-7xl font-bold leading-tight mb-6">
@@ -47,9 +45,7 @@ const Hero = () => {
           </h2>
           
           {/* Value Proposition */}
-          <p className="text-slate-subtle text-xl leading-relaxed mb-8 max-w-2xl">
-            I help DTC brands scale fast using paid ads through Meta, Instagram and TikTok. From creative testing to full-funnel scaling, every campaign is optimized to maximize your ROAS and grow your revenue.
-          </p>
+          
           
           {/* Primary CTA */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-12">
