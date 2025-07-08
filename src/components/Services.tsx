@@ -3,8 +3,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Services = () => {
   const services = [
     {
-      title: "Paid Social Strategy & Media Buying",
-      problem: "Low ROAS; poor audience targeting.",
+      title: "Paid Social Strategy and Media Buying",
+      problem: "Meta, Instagram, TikTok",
       deliverables: [
         "Meta Ads campaigns",
         "Instagram advertising", 
@@ -15,19 +15,19 @@ const Services = () => {
       ]
     },
     {
-      title: "PPC Campaigns", 
-      problem: "High cost per acquisition; low conversion.",
+      title: "PPC campaigns on Google & YouTube", 
+      problem: "Search, shopping, retargeting",
       deliverables: [
-        "Google Ads management",
-        "YouTube advertising",
         "Search campaigns",
         "Shopping ads optimization",
-        "Retargeting campaigns"
+        "YouTube advertising",
+        "Retargeting campaigns",
+        "Google Ads management"
       ]
     },
     {
-      title: "Creative Testing & Ad Optimization",
-      problem: "Ads fatigue; poor creative performance.",
+      title: "Creative testing + Ad optimization",
+      problem: "A/B ad visuals, headlines, landing pages",
       deliverables: [
         "A/B test ad visuals",
         "Headlines optimization",
@@ -38,7 +38,7 @@ const Services = () => {
     },
     {
       title: "Full-Funnel Scaling Plans",
-      problem: "Inconsistent scaling; poor funnel flow.",
+      problem: "From initial reach to retargeting and automated upsells",
       deliverables: [
         "Initial reach campaigns",
         "Retargeting sequences",
@@ -54,7 +54,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-jet-black mb-6">
-            Services That Actually Move the Needle
+            Services that move the needle
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Clear expectations, proven deliverables. Every service is designed to solve a specific revenue problem.
