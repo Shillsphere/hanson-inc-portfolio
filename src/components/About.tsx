@@ -11,10 +11,6 @@ const About = () => {
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               I help DTC brands scale fast using paid ads through Meta, Instagram and TikTok. When I'm not deep in ads manager, I'm testing creatives with Figma or browsing ad trends.
             </p>
-            
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Doubled revenues for clothing, wellness & lifestyle in under 90 days. When I'm not optimizing campaigns, you can find me on the court training kids in basketball fundamentals.
-            </p>
           </div>
           
           {/* Photo */}
