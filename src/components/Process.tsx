@@ -51,7 +51,7 @@ const Process = () => {
             <div className="absolute top-20 left-0 right-0 h-0.5 bg-gray-200"></div>
             <div className="absolute top-20 left-0 w-full h-0.5 bg-gradient-to-r from-brand-red via-brand-red to-gray-200"></div>
             
-            <div className="grid grid-cols-5 gap-8">
+            <div className="grid grid-cols-5 gap-12 justify-items-center">
               {steps.map((step, index) => (
                 <div key={index} className="text-center">
                   {/* Number Circle */}
