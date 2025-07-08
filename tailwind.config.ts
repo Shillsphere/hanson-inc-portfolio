@@ -62,10 +62,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Hanson INC Brand Colors
-				'jet-black': '#0B1114',
-				'brand-red': '#FF2A2A',
-				'slate-subtle': '#E2E8F0'
+				// Hanson COPY Brand Colors
+				'brand-blue': '#3B82F6',
+				'brand-light': '#EFF6FF',
+				'text-dark': '#1E293B'
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],

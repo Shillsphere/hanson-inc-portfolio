@@ -3,7 +3,7 @@ import { Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-jet-black py-16">
+    <footer className="bg-text-dark py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* CTA Section */}
         <div className="text-center mb-16">
@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
           <Button 
             size="lg"
-            className="bg-brand-red text-white hover:bg-brand-red/90 transition-all duration-300 px-8 py-4 text-lg font-semibold"
+            className="bg-brand-blue text-white hover:bg-brand-blue/90 transition-all duration-300 px-8 py-4 text-lg font-semibold"
             asChild
           >
             <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-white text-xl font-bold">
-              HANSON <span className="text-brand-red">COPY</span>
+              HANSON <span className="text-brand-blue">COPY</span>
             </div>
             
             <div className="flex items-center space-x-6">

@@ -20,7 +20,7 @@ const Services = () => {
   return <section className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-jet-black mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
             Services that move the needle
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -31,17 +31,17 @@ const Services = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300 group">
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-jet-black group-hover:text-brand-red transition-colors">
+                <CardTitle className="text-xl font-bold text-text-dark group-hover:text-brand-blue transition-colors">
                   {service.title}
                 </CardTitle>
-                <CardDescription className="text-brand-red font-medium">
+                <CardDescription className="text-brand-blue font-medium">
                   {service.problem}
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   {service.deliverables.map((item, i) => <li key={i} className="flex items-start gap-2 text-gray-700">
-                      <span className="text-brand-red mt-1">•</span>
+                      <span className="text-brand-blue mt-1">•</span>
                       {item}
                     </li>)}
                 </ul>

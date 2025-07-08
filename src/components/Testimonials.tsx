@@ -26,7 +26,7 @@ const Testimonials = () => {
     <section className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-jet-black mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
             What Clients Are Saying
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -45,15 +45,15 @@ const Testimonials = () => {
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-brand-red/20 to-brand-red/5 flex items-center justify-center">
-                    <span className="text-brand-red font-bold text-lg">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-brand-blue/20 to-brand-blue/5 flex items-center justify-center">
+                    <span className="text-brand-blue font-bold text-lg">
                       {testimonial.name.charAt(0)}
                     </span>
                   </div>
                   <div>
-                    <div className="font-semibold text-jet-black">{testimonial.name}</div>
+                    <div className="font-semibold text-text-dark">{testimonial.name}</div>
                     <div className="text-sm text-gray-600">{testimonial.role}</div>
-                    <div className="text-sm font-medium text-brand-red">@{testimonial.company}</div>
+                    <div className="text-sm font-medium text-brand-blue">@{testimonial.company}</div>
                   </div>
                 </div>
               </CardContent>
