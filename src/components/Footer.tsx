@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram, Linkedin, Twitter } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -33,27 +33,13 @@ const Footer = () => {
             
             <div className="flex items-center space-x-6">
               <a 
-                href="#" 
-                className="text-slate-subtle hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={20} />
-              </a>
-              <a 
-                href="https://www.instagram.com/liamhanson_06/" 
+                href="https://www.instagram.com/hansonscales/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-slate-subtle hover:text-white transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
-              </a>
-              <a 
-                href="#" 
-                className="text-slate-subtle hover:text-white transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={20} />
               </a>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram, Linkedin, Twitter } from "lucide-react";
+import { Instagram } from "lucide-react";
 const Hero = () => {
   return <section className="min-h-screen bg-brand-light relative overflow-hidden">
       {/* Background Glow Effect */}
@@ -12,14 +12,8 @@ const Hero = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-text-dark hover:text-brand-blue transition-colors">
-            <Twitter size={20} />
-          </a>
-          <a href="https://www.instagram.com/liamhanson_06/" target="_blank" rel="noopener noreferrer" className="text-text-dark hover:text-brand-blue transition-colors">
+          <a href="https://www.instagram.com/hansonscales/" target="_blank" rel="noopener noreferrer" className="text-text-dark hover:text-brand-blue transition-colors">
             <Instagram size={20} />
-          </a>
-          <a href="#" className="text-text-dark hover:text-brand-blue transition-colors">
-            <Linkedin size={20} />
           </a>
           <Button className="bg-text-dark text-white hover:bg-brand-blue hover:text-white transition-all duration-300 px-6" asChild>
             <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
