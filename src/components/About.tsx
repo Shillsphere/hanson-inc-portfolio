@@ -18,6 +18,11 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-brand-blue/20 to-brand-blue/5 flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full overflow-hidden border-4 border-brand-blue/20">
+                  <img 
+                    src="/lovable-uploads/105b206c-2a11-4d08-a42f-884d99fb308f.png" 
+                    alt="Liam Hanson - Brand Scaler and Marketing Specialist"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
