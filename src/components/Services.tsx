@@ -21,7 +21,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
-            Services that move the needle
+            Services that actually move the needle
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Clear expectations, proven deliverables. Every service is designed to solve a specific revenue problem.

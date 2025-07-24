@@ -5,11 +5,19 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
-              Hi, I'm Liam Hanson - an 18 year old Illinois based Brand scaler and marketing specialist.
+              Welcome to Drivn Digital Marketing Agency
             </h2>
             
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              I help DTC brands scale fast using paid ads through Meta, Instagram and TikTok. When I'm not deep in ads manager, I'm testing creatives with Figma or browsing ad trends.
+              Drivn Digital is a results-driven performance agency that thrives on shaping the digital landscape. We help E-commerce & Service Based Businesses Produce Game-Changing ROI Via Paid Advertising
+            </p>
+            
+            <p className="text-brand-blue text-lg font-medium mb-6 italic">
+              It's time to stop bleeding money and start printing profits
+            </p>
+            
+            <p className="text-gray-700 text-lg leading-relaxed mb-8">
+              Stop wasting time and money on faulty and ineffective ad campaigns and let us scale your brand the right way
             </p>
           </div>
           
