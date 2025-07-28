@@ -5,11 +5,11 @@ const Services = () => {
     problem: "Meta, Instagram, TikTok",
     deliverables: ["Meta Ads campaigns", "Instagram advertising", "TikTok Ads optimization", "Audience research & targeting", "Budget allocation strategy", "Creative testing framework"]
   }, {
-    title: "PPC campaigns on YouTube",
+    title: "PPC Campaigns on YouTube",
     problem: "Video advertising, retargeting",
     deliverables: ["YouTube advertising", "Video ad campaigns", "Retargeting campaigns", "YouTube Ads management"]
   }, {
-    title: "Creative testing + Ad optimization",
+    title: "Creative Testing + Ad Optimization",
     problem: "A/B ad visuals, headlines, landing pages",
     deliverables: ["A/B test ad visuals", "Headlines optimization", "Landing page testing", "Creative refresh cycles", "Performance analysis"]
   }, {
@@ -17,7 +17,7 @@ const Services = () => {
     problem: "Deploy across platforms including YouTube",
     deliverables: ["Meta campaigns", "Instagram campaigns", "TikTok campaigns", "YouTube campaigns", "Ongoing A/B tests"]
   }];
-  return <section className="py-24 bg-gradient-to-br from-gray-100 via-gray-50 to-white">
+  return <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6 font-alice">

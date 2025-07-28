@@ -1,16 +1,15 @@
 const About = () => {
-  return <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-gray-100">
+  return <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-black mb-6 font-alice">
-              Welcome to<br />
-              Drivn Digital Marketing Agency
+            <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
+              Hi, I'm Liam Hanson — an 18-year-old, Illinois-based brand scaler and marketing specialist.
             </h2>
             
             <p className="text-brand-gray text-lg leading-relaxed mb-6 font-alice">
-              Drivn Digital is a results-driven performance agency that thrives on shaping the digital landscape. We help E-commerce & Service Based Businesses Produce Game-Changing ROI Via Paid Advertising
+              I help DTC brands scale quickly using paid ads on Meta, Instagram, and TikTok. When I'm not deep in Ads Manager, I'm testing creatives in Figma or browsing ad-trend inspiration.
             </p>
             
             <p className="text-black text-lg font-medium mb-6 italic font-alice">

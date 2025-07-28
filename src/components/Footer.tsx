@@ -27,8 +27,8 @@ const Footer = () => {
         {/* Footer Content */}
         <div className="border-t border-white/10 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="text-white text-xl font-bold font-alice">
-              DRIVN DIGITAL
+            <div className="flex items-center">
+              <img src="/drivn-digital-logo.svg" alt="Drivn Digital" className="h-8 w-auto invert" />
             </div>
             
             <div className="flex items-center space-x-6">
@@ -38,15 +38,6 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-brand-gray hover:text-white transition-colors"
                 aria-label="DRIVN DIGITAL Instagram"
-              >
-                <Instagram size={20} />
-              </a>
-              <a 
-                href="https://www.instagram.com/hansonscales/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-brand-gray hover:text-white transition-colors"
-                aria-label="Hanson Scales Instagram"
               >
                 <Instagram size={20} />
               </a>

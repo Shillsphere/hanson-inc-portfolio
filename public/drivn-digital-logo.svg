@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular DD Monogram -->
+  <circle cx="25" cy="25" r="20" fill="none" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="25" y="32" font-family="serif" font-size="20" font-weight="bold" fill="#9CA3AF" text-anchor="middle">DD</text>
+  
+  <!-- Company Name -->
+  <text x="60" y="25" font-family="sans-serif" font-size="16" font-weight="bold" fill="#9CA3AF" text-transform="uppercase">DRIVN DIGITAL</text>
+  
+  <!-- Tagline -->
+  <text x="60" y="42" font-family="sans-serif" font-size="10" font-weight="normal" fill="#9CA3AF" text-transform="uppercase">MARKETING AGENCY</text>
+</svg> 
