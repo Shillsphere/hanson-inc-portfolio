@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
 const Hero = () => {
-  return <section className="min-h-screen bg-white relative overflow-hidden">
+  return <section className="min-h-screen bg-gradient-to-br from-white via-gray-50 to-gray-100 relative overflow-hidden">
       
       {/* Navigation */}
       <nav className="relative z-10 flex items-center justify-between p-6 max-w-7xl mx-auto">

@@ -3,19 +3,19 @@ import { Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-text-dark py-16">
+    <footer className="bg-black py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* CTA Section */}
         <div className="text-center mb-16">
-          <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
+          <h3 className="text-3xl md:text-4xl font-bold text-white mb-6 font-alice">
             Ready to Scale Your Brand with Paid Ads?
           </h3>
-          <p className="text-xl text-slate-subtle mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-brand-gray mb-8 max-w-2xl mx-auto font-alice">
             Let's talk about your goals and see how strategic paid advertising can grow your revenue.
           </p>
           <Button 
             size="lg"
-            className="bg-brand-blue text-white hover:bg-brand-blue/90 transition-all duration-300 px-8 py-4 text-lg font-semibold"
+            className="bg-white text-black hover:bg-brand-gray hover:text-white transition-all duration-300 px-8 py-4 text-lg font-semibold font-alice"
             asChild
           >
             <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
@@ -27,17 +27,26 @@ const Footer = () => {
         {/* Footer Content */}
         <div className="border-t border-white/10 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="text-white text-xl font-bold">
-              HANSON <span className="text-brand-blue">COPY</span>
+            <div className="text-white text-xl font-bold font-alice">
+              DRIVN DIGITAL
             </div>
             
             <div className="flex items-center space-x-6">
               <a 
+                href="https://www.instagram.com/drivndigital/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-brand-gray hover:text-white transition-colors"
+                aria-label="DRIVN DIGITAL Instagram"
+              >
+                <Instagram size={20} />
+              </a>
+              <a 
                 href="https://www.instagram.com/hansonscales/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-slate-subtle hover:text-white transition-colors"
-                aria-label="Instagram"
+                className="text-brand-gray hover:text-white transition-colors"
+                aria-label="Hanson Scales Instagram"
               >
                 <Instagram size={20} />
               </a>
@@ -45,8 +54,8 @@ const Footer = () => {
           </div>
           
           <div className="mt-8 pt-8 border-t border-white/10 text-center">
-            <p className="text-slate-subtle text-sm">
-              © 2024 HANSON COPY. All rights reserved. • Illinois-based Brand Scaling & Marketing Specialist
+            <p className="text-brand-gray text-sm font-alice">
+              © 2024 DRIVN DIGITAL. All rights reserved. • Digital Marketing Agency
             </p>
           </div>
         </div>

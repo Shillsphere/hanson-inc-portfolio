@@ -1,5 +1,5 @@
 const About = () => {
-  return <section className="py-24 bg-white">
+  return <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-gray-100">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
@@ -25,8 +25,8 @@ const About = () => {
           {/* Photo */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-brand-blue/20 to-brand-blue/5 flex items-center justify-center">
-                <div className="w-72 h-72 rounded-full overflow-hidden border-4 border-brand-blue/20">
+              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-gray-200 to-gray-100 flex items-center justify-center">
+                <div className="w-72 h-72 rounded-full overflow-hidden border-4 border-gray-300">
                   <img 
                     src="/lovable-uploads/105b206c-2a11-4d08-a42f-884d99fb308f.png" 
                     alt="Liam Hanson - Brand Scaler and Marketing Specialist"
