@@ -5,43 +5,43 @@ const Services = () => {
     problem: "Meta, Instagram, TikTok",
     deliverables: ["Meta Ads campaigns", "Instagram advertising", "TikTok Ads optimization", "Audience research & targeting", "Budget allocation strategy", "Creative testing framework"]
   }, {
-    title: "PPC campaigns on Google & YouTube",
-    problem: "Search, shopping, retargeting",
-    deliverables: ["Search campaigns", "Shopping ads optimization", "YouTube advertising", "Retargeting campaigns", "Google Ads management"]
+    title: "PPC campaigns on YouTube",
+    problem: "Video advertising, retargeting",
+    deliverables: ["YouTube advertising", "Video ad campaigns", "Retargeting campaigns", "YouTube Ads management"]
   }, {
     title: "Creative testing + Ad optimization",
     problem: "A/B ad visuals, headlines, landing pages",
     deliverables: ["A/B test ad visuals", "Headlines optimization", "Landing page testing", "Creative refresh cycles", "Performance analysis"]
   }, {
-    title: "Full-Funnel Scaling Plans",
-    problem: "From initial reach to retargeting and automated upsells",
-    deliverables: ["Initial reach campaigns", "Retargeting sequences", "Automated upsells", "Customer journey mapping", "Conversion optimization"]
+    title: "Launch Ad Campaigns",
+    problem: "Deploy across platforms including YouTube",
+    deliverables: ["Meta campaigns", "Instagram campaigns", "TikTok campaigns", "YouTube campaigns", "Ongoing A/B tests"]
   }];
-  return <section className="py-24 bg-gray-50">
+  return <section className="py-24 bg-gray-100">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6 font-alice">
             Services that actually move the needle
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-brand-gray max-w-3xl mx-auto font-alice">
             Clear expectations, proven deliverables. Every service is designed to solve a specific revenue problem.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300 group">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {services.map((service, index) => <Card key={index} className="border border-gray-200 shadow-lg hover:shadow-xl transition-shadow duration-300 group bg-white">
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-text-dark group-hover:text-brand-blue transition-colors">
+                <CardTitle className="text-xl font-bold text-black group-hover:text-brand-gray transition-colors font-alice">
                   {service.title}
                 </CardTitle>
-                <CardDescription className="text-brand-blue font-medium">
+                <CardDescription className="text-brand-gray font-medium font-alice">
                   {service.problem}
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
-                  {service.deliverables.map((item, i) => <li key={i} className="flex items-start gap-2 text-gray-700">
-                      <span className="text-brand-blue mt-1">•</span>
+                  {service.deliverables.map((item, i) => <li key={i} className="flex items-start gap-2 text-brand-gray font-alice">
+                      <span className="text-black mt-1">•</span>
                       {item}
                     </li>)}
                 </ul>

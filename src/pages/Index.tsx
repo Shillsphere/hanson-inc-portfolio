@@ -1,8 +1,8 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Industries from "@/components/Industries";
+import ProcessByIndustry from "@/components/ProcessByIndustry";
 import Services from "@/components/Services";
-import Process from "@/components/Process";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,8 +11,8 @@ const Index = () => {
       <Hero />
       <About />
       <Industries />
+      <ProcessByIndustry />
       <Services />
-      <Process />
       <Footer />
     </div>
   );

@@ -4,19 +4,20 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
-              Welcome to Drivn Digital Marketing Agency
+            <h2 className="text-4xl md:text-5xl font-bold text-black mb-6 font-alice">
+              Welcome to<br />
+              Drivn Digital Marketing Agency
             </h2>
             
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
+            <p className="text-brand-gray text-lg leading-relaxed mb-6 font-alice">
               Drivn Digital is a results-driven performance agency that thrives on shaping the digital landscape. We help E-commerce & Service Based Businesses Produce Game-Changing ROI Via Paid Advertising
             </p>
             
-            <p className="text-brand-blue text-lg font-medium mb-6 italic">
+            <p className="text-black text-lg font-medium mb-6 italic font-alice">
               It's time to stop bleeding money and start printing profits
             </p>
             
-            <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            <p className="text-brand-gray text-lg leading-relaxed mb-8 font-alice">
               Stop wasting time and money on faulty and ineffective ad campaigns and let us scale your brand the right way
             </p>
           </div>

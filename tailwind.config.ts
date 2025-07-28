@@ -62,14 +62,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Hanson COPY Brand Colors
-				'brand-blue': '#3B82F6',
-				'brand-light': '#EFF6FF',
-				'text-dark': '#1E293B'
+				// DRIVN DIGITAL Brand Colors
+				'brand-black': '#000000',
+				'brand-white': '#FFFFFF',
+				'brand-gray': '#6B7280'
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
-				display: ['Playfair Display', 'serif']
+				display: ['Alice', 'serif'],
+				alice: ['Alice', 'serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

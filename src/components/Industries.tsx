@@ -7,16 +7,14 @@ const Industries = () => {
   ];
 
   return (
-    <section className="py-24 bg-gray-50 relative">
-      {/* Background overlay for future image */}
-      <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-transparent"></div>
+    <section className="py-24 bg-gray-100 relative">
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4 font-alice">
             Industries
           </h2>
-          <p className="text-brand-blue text-xl font-semibold tracking-wide uppercase">
+          <p className="text-brand-gray text-xl font-semibold tracking-wide uppercase font-alice">
             WHO WE CHOOSE TO PARTNER WITH
           </p>
         </div>
@@ -25,9 +23,9 @@ const Industries = () => {
           {industries.map((industry, index) => (
             <div 
               key={index}
-              className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-brand-blue/10"
+              className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200"
             >
-              <h3 className="text-text-dark text-lg font-semibold text-center leading-relaxed">
+              <h3 className="text-black text-lg font-semibold text-center leading-relaxed font-alice">
                 {industry}
               </h3>
             </div>
