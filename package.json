@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Shillsphere.github.io/hanson-inc-portfolio/",
+  "homepage": "https://drivndigital.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
