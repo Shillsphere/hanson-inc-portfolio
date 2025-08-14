@@ -4,22 +4,22 @@ const Industries = () => {
   const industries = [
     {
       title: "Online Coaching Businesses",
-      image: "/online-coaching-business.jpg",
+      image: `${import.meta.env.BASE_URL}online-coaching-business.jpg`,
       link: "/online-coaching-business"
     },
     {
       title: "E-commerce Clothing Brands", 
-      image: "/clothing.png",
+      image: `${import.meta.env.BASE_URL}clothing.png`,
       link: "/ecommerce-clothing-brands"
     },
     {
       title: "Hair Salons/Barbershops",
-      image: "/hair-salons.jpg",
+      image: `${import.meta.env.BASE_URL}hair-salons.jpg`,
       link: "/hair-salons-barbershops"
     },
     {
       title: "Online Coaches and Influencers",
-      image: "/influencers.png",
+      image: `${import.meta.env.BASE_URL}influencers.png`,
       link: "/online-coaches-influencers"
     }
   ];

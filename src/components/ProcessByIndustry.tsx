@@ -16,7 +16,7 @@ const ProcessByIndustry = () => {
         {
           number: "3",
           title: "Paid Ads & Content Strategy",
-          description: "We launch targeted Meta or Youtube ads using UGC-Style content and proven frameworks that attract ideal clients and drive conversions"
+          description: "We launch targeted Meta or YouTube ads using UGC style content and proven frameworks that attract ideal clients and drive conversions"
         },
         {
           number: "4",

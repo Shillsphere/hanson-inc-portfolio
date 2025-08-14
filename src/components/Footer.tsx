@@ -28,12 +28,12 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center">
-              <img src="/drivn-digital-logo.svg" alt="Drivn Digital" className="h-8 w-auto invert" />
+              <img src={`${import.meta.env.BASE_URL}drivn-digital-logo.svg`} alt="Drivn Digital" className="h-8 w-auto invert" />
             </div>
             
             <div className="flex items-center space-x-6">
               <a 
-                href="https://www.instagram.com/drivndigital/" 
+                href="https://www.instagram.com/drivndigital_agency/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-brand-gray hover:text-white transition-colors"

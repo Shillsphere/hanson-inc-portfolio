@@ -9,11 +9,11 @@ const Hero = () => {
       {/* Navigation */}
       <nav className="relative z-10 flex items-center justify-between p-6 max-w-7xl mx-auto">
         <div className="flex items-center">
-          <img src="/drivn-digital-logo.svg" alt="Drivn Digital" className="h-12 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}drivn-digital-logo.svg`} alt="Drivn Digital" className="h-12 w-auto" />
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
-          <a href="https://www.instagram.com/drivndigital/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
+          <a href="https://www.instagram.com/drivndigital_agency/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
             <Instagram size={20} />
           </a>
           <Button className="bg-white text-black hover:bg-gray-200 transition-all duration-300 px-6" asChild>
@@ -35,8 +35,8 @@ const Hero = () => {
             Strategies
           </h1>
           
-          <h2 className="text-gray-300 text-xl md:text-2xl leading-relaxed mb-8 font-alice drop-shadow">
-            Providing 'business-changing' digital marketing that actually drives profitable growth and not just metrics
+          <h2 className="text-white text-xl md:text-2xl leading-relaxed mb-8 font-alice drop-shadow-2xl">
+            Delivering business-changing digital marketing that drives profitable growth, not just vanity metrics.
           </h2>
           
           {/* Primary CTA */}

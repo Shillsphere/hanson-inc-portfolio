@@ -31,11 +31,11 @@ const HairSalonsBarbershops = () => {
       {/* Navigation */}
       <nav className="relative z-10 flex items-center justify-between p-6 max-w-7xl mx-auto">
         <div className="flex items-center">
-          <img src="/drivn-digital-logo.svg" alt="Drivn Digital" className="h-12 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}drivn-digital-logo.svg`} alt="Drivn Digital" className="h-12 w-auto" />
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
-          <a href="https://www.instagram.com/drivndigital/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-brand-gray transition-colors">
+          <a href="https://www.instagram.com/drivndigital_agency/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-brand-gray transition-colors">
             <Instagram size={20} />
           </a>
           <Button className="bg-black text-white hover:bg-brand-gray transition-all duration-300 px-6" asChild>
