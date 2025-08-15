@@ -5,7 +5,7 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-6">
-              Hi, I'm Liam Hanson — an 18-year-old, Illinois-based brand scaler and marketing specialist.
+              Hi, I'm Liam Hanson — an 19-year-old, Illinois-based brand scaler and marketing specialist.
             </h2>
             
             <p className="text-brand-gray text-lg leading-relaxed mb-6 font-alice">
