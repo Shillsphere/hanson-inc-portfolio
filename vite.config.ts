@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
   ],
-  base: "/hanson-inc-portfolio/",
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
