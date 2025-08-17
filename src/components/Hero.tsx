@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram } from "lucide-react";
+import { Instagram, Linkedin } from "lucide-react";
 
 const Hero = () => {
   return <section className="min-h-screen animated-gradient relative overflow-hidden">
@@ -15,6 +15,9 @@ const Hero = () => {
         <div className="hidden md:flex items-center space-x-8">
           <a href="https://www.instagram.com/drivndigital_agency/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
             <Instagram size={20} />
+          </a>
+          <a href="https://www.linkedin.com/in/liam-hanson-35439b375/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
+            <Linkedin size={20} />
           </a>
           <Button className="bg-white text-black hover:bg-gray-200 transition-all duration-300 px-6" asChild>
             <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">

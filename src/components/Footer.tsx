@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram } from "lucide-react";
+import { Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -40,6 +40,15 @@ const Footer = () => {
                 aria-label="DRIVN DIGITAL Instagram"
               >
                 <Instagram size={20} />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/liam-hanson-35439b375/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-brand-gray hover:text-white transition-colors"
+                aria-label="Liam Hanson LinkedIn"
+              >
+                <Linkedin size={20} />
               </a>
             </div>
           </div>

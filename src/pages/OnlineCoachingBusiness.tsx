@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Instagram } from "lucide-react";
+import { ArrowLeft, Instagram, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const OnlineCoachingBusiness = () => {
@@ -37,6 +37,9 @@ const OnlineCoachingBusiness = () => {
         <div className="hidden md:flex items-center space-x-8">
           <a href="https://www.instagram.com/drivndigital_agency/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-brand-gray transition-colors">
             <Instagram size={20} />
+          </a>
+          <a href="https://www.linkedin.com/in/liam-hanson-35439b375/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-brand-gray transition-colors">
+            <Linkedin size={20} />
           </a>
           <Button className="bg-black text-white hover:bg-brand-gray transition-all duration-300 px-6" asChild>
             <a href="https://calendly.com/liamhanson755" target="_blank" rel="noopener noreferrer">
